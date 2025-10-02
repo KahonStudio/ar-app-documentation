@@ -1,7 +1,7 @@
 ---
 home: true
 title: Home
-heroImage: /images/ar-logo.png
+heroImage: .vuepress/public/images/ar-logo.png
 actions:
   - text: Get Started
     link: /table-of-contents.html

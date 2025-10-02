@@ -9,13 +9,10 @@ export default defineUserConfig({
   description: 'AR Perspective pop-up book documentation',
 
   theme: defaultTheme({
-    logo: '/images/ar-logo.png',
+    logo: '.vuepress/public/images/ar-logo.png',
 
     navbar: ['/', '/table-of-contents'],
   }),
-
-  // Ensure proper public directory handling
-  dest: 'dist',
 
   bundler: viteBundler(),
 })
