@@ -9,7 +9,7 @@ export default defineUserConfig({
   description: 'AR Perspective pop-up book documentation',
 
   theme: defaultTheme({
-    logo: '.vuepress/public/images/ar-logo.png',
+    logo: '/images/ar-logo.png',
 
     navbar: ['/', '/table-of-contents'],
   }),
