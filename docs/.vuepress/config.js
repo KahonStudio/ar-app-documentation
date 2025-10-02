@@ -5,13 +5,13 @@ import { viteBundler } from '@vuepress/bundler-vite'
 export default defineUserConfig({
   lang: 'en-US',
 
-  title: 'VuePress',
-  description: 'My first VuePress Site',
+  title: 'AR POP-UP BOOK',
+  description: 'AR Perspective pop-up book documentation',
 
   theme: defaultTheme({
-    logo: 'https://vuejs.press/images/hero.png',
+    logo: '/images/ar-logo.png',
 
-    navbar: ['/', '/get-started'],
+    navbar: ['/', '/table-of-contents'],
   }),
 
   bundler: viteBundler(),

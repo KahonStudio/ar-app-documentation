@@ -1,14 +1,14 @@
 export const redirects = JSON.parse("{}")
 
 export const routes = Object.fromEntries([
-  ["/foreshortening.html", { loader: () => import(/* webpackChunkName: "foreshortening.html" */"C:/Users/James/Documents/GitHub/vuepress-ar-app/docs/.vuepress/.temp/pages/foreshortening.html.js"), meta: {"title":"Foreshortening"} }],
-  ["/get-started.html", { loader: () => import(/* webpackChunkName: "get-started.html" */"C:/Users/James/Documents/GitHub/vuepress-ar-app/docs/.vuepress/.temp/pages/get-started.html.js"), meta: {"title":"Get Started"} }],
-  ["/materials-and-tools.html", { loader: () => import(/* webpackChunkName: "materials-and-tools.html" */"C:/Users/James/Documents/GitHub/vuepress-ar-app/docs/.vuepress/.temp/pages/materials-and-tools.html.js"), meta: {"title":"Materials and Tools"} }],
-  ["/orthographic-drawing.html", { loader: () => import(/* webpackChunkName: "orthographic-drawing.html" */"C:/Users/James/Documents/GitHub/vuepress-ar-app/docs/.vuepress/.temp/pages/orthographic-drawing.html.js"), meta: {"title":"Orthographic Drawing"} }],
-  ["/perspective-views.html", { loader: () => import(/* webpackChunkName: "perspective-views.html" */"C:/Users/James/Documents/GitHub/vuepress-ar-app/docs/.vuepress/.temp/pages/perspective-views.html.js"), meta: {"title":"Perspective Views"} }],
-  ["/", { loader: () => import(/* webpackChunkName: "index.html" */"C:/Users/James/Documents/GitHub/vuepress-ar-app/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":"Home"} }],
-  ["/technical-drawing.html", { loader: () => import(/* webpackChunkName: "technical-drawing.html" */"C:/Users/James/Documents/GitHub/vuepress-ar-app/docs/.vuepress/.temp/pages/technical-drawing.html.js"), meta: {"title":"Technical Drawing"} }],
-  ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"C:/Users/James/Documents/GitHub/vuepress-ar-app/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
+  ["/foreshortening.html", { loader: () => import(/* webpackChunkName: "foreshortening.html" */"C:/Users/James/Documents/GitHub/ar-app-documentation/docs/.vuepress/.temp/pages/foreshortening.html.js"), meta: {"title":"Foreshortening"} }],
+  ["/materials-and-tools.html", { loader: () => import(/* webpackChunkName: "materials-and-tools.html" */"C:/Users/James/Documents/GitHub/ar-app-documentation/docs/.vuepress/.temp/pages/materials-and-tools.html.js"), meta: {"title":"Materials and Tools"} }],
+  ["/orthographic-drawing.html", { loader: () => import(/* webpackChunkName: "orthographic-drawing.html" */"C:/Users/James/Documents/GitHub/ar-app-documentation/docs/.vuepress/.temp/pages/orthographic-drawing.html.js"), meta: {"title":"Orthographic Drawing"} }],
+  ["/perspective-views.html", { loader: () => import(/* webpackChunkName: "perspective-views.html" */"C:/Users/James/Documents/GitHub/ar-app-documentation/docs/.vuepress/.temp/pages/perspective-views.html.js"), meta: {"title":"Perspective Views"} }],
+  ["/", { loader: () => import(/* webpackChunkName: "index.html" */"C:/Users/James/Documents/GitHub/ar-app-documentation/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":"Home"} }],
+  ["/table-of-contents.html", { loader: () => import(/* webpackChunkName: "table-of-contents.html" */"C:/Users/James/Documents/GitHub/ar-app-documentation/docs/.vuepress/.temp/pages/table-of-contents.html.js"), meta: {"title":"Table of Contents"} }],
+  ["/technical-drawing.html", { loader: () => import(/* webpackChunkName: "technical-drawing.html" */"C:/Users/James/Documents/GitHub/ar-app-documentation/docs/.vuepress/.temp/pages/technical-drawing.html.js"), meta: {"title":"Technical Drawing"} }],
+  ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"C:/Users/James/Documents/GitHub/ar-app-documentation/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
 ]);
 
 if (import.meta.webpackHot) {

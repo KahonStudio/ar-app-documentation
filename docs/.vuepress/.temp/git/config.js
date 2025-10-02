@@ -1,5 +1,5 @@
-import { GitContributors } from "C:/Users/James/Documents/GitHub/vuepress-ar-app/node_modules/@vuepress/plugin-git/lib/client/components/GitContributors.js";
-import { GitChangelog } from "C:/Users/James/Documents/GitHub/vuepress-ar-app/node_modules/@vuepress/plugin-git/lib/client/components/GitChangelog.js";
+import { GitContributors } from "C:/Users/James/Documents/GitHub/ar-app-documentation/node_modules/@vuepress/plugin-git/lib/client/components/GitContributors.js";
+import { GitChangelog } from "C:/Users/James/Documents/GitHub/ar-app-documentation/node_modules/@vuepress/plugin-git/lib/client/components/GitChangelog.js";
 
 export default {
   enhance: ({ app }) => {

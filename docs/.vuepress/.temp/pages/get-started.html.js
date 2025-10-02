@@ -1,5 +1,5 @@
-import comp from "C:/Users/James/Documents/GitHub/vuepress-ar-app/docs/.vuepress/.temp/pages/get-started.html.vue"
-const data = JSON.parse("{\"path\":\"/get-started.html\",\"title\":\"Get Started\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[],\"git\":{},\"filePathRelative\":\"get-started.md\"}")
+import comp from "C:/Users/James/Documents/GitHub/ar-app-documentation/docs/.vuepress/.temp/pages/get-started.html.vue"
+const data = JSON.parse("{\"path\":\"/get-started.html\",\"title\":\"Get Started\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":1759371219000,\"contributors\":[{\"name\":\"KahonStudio\",\"username\":\"KahonStudio\",\"email\":\"itsmeibay@gmail.com\",\"commits\":1,\"url\":\"https://github.com/KahonStudio\"}],\"changelog\":[{\"hash\":\"c46d65eb1526a62c84e9c7b1ab4b647ba4642559\",\"time\":1759371219000,\"email\":\"itsmeibay@gmail.com\",\"author\":\"KahonStudio\",\"message\":\"first commit\"}]},\"filePathRelative\":\"get-started.md\"}")
 export { comp, data }
 
 if (import.meta.webpackHot) {

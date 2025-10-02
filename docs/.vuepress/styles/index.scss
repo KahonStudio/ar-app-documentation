@@ -1,0 +1,158 @@
+/* docs/.vuepress/styles/index.scss */
+
+/* Light mode */
+:root {
+  /* Brand colors for buttons - MATCH ACCENT COLORS */
+  --vp-c-brand: #e63946;          /* Red primary button for light mode */
+  --vp-c-brand-light: #ff0015;    /* Brighter red for hover */
+  --vp-c-brand-lighter: #ff4d66;  /* Even lighter for active states */
+  --vp-c-brand-dark: #cc2f3b;     /* Darker red */
+  --vp-c-brand-darker: #b31e2a;   /* Darkest red for contrast */
+
+  /* General accents (links, highlights, etc.) - keep red for other elements */
+  --vp-c-accent: #e63946;
+  --vp-c-accent-bg: #cc2f3b;
+  --vp-c-accent-hover: #ff0015;
+
+  /* Secondary button colors */
+  --vp-c-text-2: #2c3e50;         /* Dark text for secondary buttons */
+  --vp-c-text-2-hover: #1a252f;   /* Slightly darker on hover for subtle change */
+
+  /* Badge colors */
+  --vp-badge-tip: #e63946;        /* replaces green "tip" badge */
+  --vp-badge-warning: #fca311;    /* orange/yellow for warning */
+  --vp-badge-danger: #d00000;     /* red for danger */
+}
+
+/* Dark mode */
+[data-theme="dark"] {
+  /* Brand colors for buttons - MATCH ACCENT COLORS */
+  --vp-c-brand: #ff4d4d;          /* Red primary button for dark mode */
+  --vp-c-brand-light: #ff1a1a;    /* Brighter red for hover */
+  --vp-c-brand-lighter: #ff6666;  /* Even lighter for active states */
+  --vp-c-brand-dark: #df0404;     /* Darker red */
+  --vp-c-brand-darker: #cc0000;   /* Darkest red for contrast */
+
+  /* General accents (links, highlights, etc.) - keep red for other elements */
+  --vp-c-accent: #ff4d4d;
+  --vp-c-accent-bg: #df0404;
+  --vp-c-accent-hover: #ff1a1a;
+
+  /* Secondary button colors */
+  --vp-c-text-2: #e2e8f0;         /* Light text for secondary buttons */
+  --vp-c-text-2-hover: #ffffff;   /* Brighter white on hover for subtle change */
+
+  --vp-badge-tip: #ff4d4d;
+  --vp-badge-warning: #ffb347;
+  --vp-badge-danger: #ff6666;
+}
+
+/* Force primary buttons to use brand colors */
+.vp-action.primary {
+  background-color: var(--vp-c-brand) !important;
+  color: #ffffff !important;
+  border-color: var(--vp-c-brand) !important;
+}
+
+.vp-action.primary:hover {
+  background-color: var(--vp-c-brand-light) !important;
+  color: #ffffff !important;
+  border-color: var(--vp-c-brand-light) !important;
+}
+
+/* Fix secondary button hover states - more specific selectors */
+.vp-action.secondary,
+a.vp-action[data-type="secondary"] {
+  color: var(--vp-c-text-2) !important;
+  border-color: var(--vp-c-text-2) !important;
+  background-color: transparent !important;
+  transition: all 0.2s ease !important;
+}
+
+.vp-action.secondary:hover,
+a.vp-action[data-type="secondary"]:hover,
+.vp-action.secondary:focus,
+a.vp-action[data-type="secondary"]:focus {
+  color: var(--vp-c-text-2-hover) !important;
+  border-color: var(--vp-c-text-2) !important;
+  background-color: transparent !important;
+}
+
+/* Additional specificity for VuePress home page actions */
+.home .vp-action.secondary,
+.home a.vp-action[data-type="secondary"] {
+  color: var(--vp-c-text-2) !important;
+  border-color: var(--vp-c-text-2) !important;
+}
+
+.home .vp-action.secondary:hover,
+.home a.vp-action[data-type="secondary"]:hover {
+  color: var(--vp-c-text-2-hover) !important;
+  border-color: var(--vp-c-text-2) !important;
+  background-color: transparent !important;
+}
+
+/* Navigation menu fixes */
+.VPNavBarMenu .VPMenuLink.is-active,
+.VPNavBarMenu .VPMenuLink:hover {
+  color: var(--vp-c-brand) !important;
+}
+
+/* Custom action buttons for non-home pages */
+.custom-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2rem 0;
+  justify-content: center;
+}
+
+.action-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none !important;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+  border: 2px solid;
+  cursor: pointer;
+}
+
+.action-button.primary {
+  background-color: var(--vp-c-brand);
+  color: #ffffff;
+  border-color: var(--vp-c-brand);
+}
+
+.action-button.primary:hover {
+  background-color: var(--vp-c-brand-light);
+  border-color: var(--vp-c-brand-light);
+  color: #ffffff;
+}
+
+.action-button.secondary {
+  background-color: transparent;
+  color: var(--vp-c-text-2);
+  border-color: var(--vp-c-text-2);
+}
+
+.action-button.secondary:hover {
+  background-color: transparent;
+  color: var(--vp-c-text-2-hover);
+  border-color: var(--vp-c-text-2);
+}
+
+/* Responsive design for action buttons */
+@media (max-width: 768px) {
+  .custom-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .action-button {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+  }
+}
