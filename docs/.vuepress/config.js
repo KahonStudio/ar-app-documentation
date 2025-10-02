@@ -14,5 +14,8 @@ export default defineUserConfig({
     navbar: ['/', '/table-of-contents'],
   }),
 
+  // Ensure proper public directory handling
+  dest: 'dist',
+
   bundler: viteBundler(),
 })
