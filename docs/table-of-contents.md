@@ -23,7 +23,7 @@ Welcome to the **AR App Technical Drawing Series**. This guide is designed to he
 
 <div class="custom-actions"><a href="/perspective-views.html" class="action-button primary">Learn more: Perspective Views</a></div>
 
-### **Foreshortening**  
-  Master the technique of foreshortening to create convincing depth and dynamic forms in your drawings. Learn how compressed shapes can be used to make objects appear closer or farther away, and practice exercises to apply this concept in both simple geometric figures and complex organic forms.  
+### **Practice Perspective Sheet**  
+  A collection of hands-on activities to help you explore perspective in drawing. Try out guided exercises that let you experiment with foreshortening, depth, and dynamic forms—ranging from simple geometric shapes to more complex organic figures.
 
-<div class="custom-actions"><a href="/foreshortening.html" class="action-button primary">Learn more: Foreshortening</a></div>
+<div class="custom-actions"><a href="/practice-perspective-sheet.html" class="action-button primary">Learn more: Practice Perspective-Sheet</a></div>

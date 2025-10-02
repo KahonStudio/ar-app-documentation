@@ -13,8 +13,8 @@
 <h3 id="perspective-views" tabindex="-1"><a class="header-anchor" href="#perspective-views"><span><strong>Perspective Views</strong></span></a></h3>
 <p>Explore how to create the illusion of depth and space through perspective drawing. Topics include linear perspective terminology, one-point, two-point, and three-point perspectives, and step-by-step practice exercises to help you visualize and sketch realistic objects in space.</p>
 <div class="custom-actions"><a href="/perspective-views.html" class="action-button primary">Learn more: Perspective Views</a></div>
-<h3 id="foreshortening" tabindex="-1"><a class="header-anchor" href="#foreshortening"><span><strong>Foreshortening</strong></span></a></h3>
-<p>Master the technique of foreshortening to create convincing depth and dynamic forms in your drawings. Learn how compressed shapes can be used to make objects appear closer or farther away, and practice exercises to apply this concept in both simple geometric figures and complex organic forms.</p>
-<div class="custom-actions"><a href="/foreshortening.html" class="action-button primary">Learn more: Foreshortening</a></div></div></template>
+<h3 id="practice-perspective-sheet" tabindex="-1"><a class="header-anchor" href="#practice-perspective-sheet"><span><strong>Practice Perspective Sheet</strong></span></a></h3>
+<p>A collection of hands-on activities to help you explore perspective in drawing. Try out guided exercises that let you experiment with foreshortening, depth, and dynamic forms—ranging from simple geometric shapes to more complex organic figures.</p>
+<div class="custom-actions"><a href="/practice-perspective-sheet.html" class="action-button primary">Learn more: Practice Perspective-Sheet</a></div></div></template>
 
 

@@ -1,10 +1,10 @@
 export const redirects = JSON.parse("{}")
 
 export const routes = Object.fromEntries([
-  ["/foreshortening.html", { loader: () => import(/* webpackChunkName: "foreshortening.html" */"C:/Users/James/Documents/GitHub/ar-app-documentation/docs/.vuepress/.temp/pages/foreshortening.html.js"), meta: {"title":"Foreshortening"} }],
   ["/materials-and-tools.html", { loader: () => import(/* webpackChunkName: "materials-and-tools.html" */"C:/Users/James/Documents/GitHub/ar-app-documentation/docs/.vuepress/.temp/pages/materials-and-tools.html.js"), meta: {"title":"Materials and Tools"} }],
   ["/orthographic-drawing.html", { loader: () => import(/* webpackChunkName: "orthographic-drawing.html" */"C:/Users/James/Documents/GitHub/ar-app-documentation/docs/.vuepress/.temp/pages/orthographic-drawing.html.js"), meta: {"title":"Orthographic Drawing"} }],
   ["/perspective-views.html", { loader: () => import(/* webpackChunkName: "perspective-views.html" */"C:/Users/James/Documents/GitHub/ar-app-documentation/docs/.vuepress/.temp/pages/perspective-views.html.js"), meta: {"title":"Perspective Views"} }],
+  ["/practice-perspective-sheet.html", { loader: () => import(/* webpackChunkName: "practice-perspective-sheet.html" */"C:/Users/James/Documents/GitHub/ar-app-documentation/docs/.vuepress/.temp/pages/practice-perspective-sheet.html.js"), meta: {"title":"Practice Perspective Sheet"} }],
   ["/", { loader: () => import(/* webpackChunkName: "index.html" */"C:/Users/James/Documents/GitHub/ar-app-documentation/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":"Home"} }],
   ["/table-of-contents.html", { loader: () => import(/* webpackChunkName: "table-of-contents.html" */"C:/Users/James/Documents/GitHub/ar-app-documentation/docs/.vuepress/.temp/pages/table-of-contents.html.js"), meta: {"title":"Table of Contents"} }],
   ["/technical-drawing.html", { loader: () => import(/* webpackChunkName: "technical-drawing.html" */"C:/Users/James/Documents/GitHub/ar-app-documentation/docs/.vuepress/.temp/pages/technical-drawing.html.js"), meta: {"title":"Technical Drawing"} }],
