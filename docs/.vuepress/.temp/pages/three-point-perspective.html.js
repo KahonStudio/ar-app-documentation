@@ -1,5 +1,5 @@
 import comp from "C:/Users/James/Documents/GitHub/ar-app-documentation/docs/.vuepress/.temp/pages/three-point-perspective.html.vue"
-const data = JSON.parse("{\"path\":\"/three-point-perspective.html\",\"title\":\"Three-Point Perspective\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[],\"git\":{},\"filePathRelative\":\"three-point-perspective.md\"}")
+const data = JSON.parse("{\"path\":\"/three-point-perspective.html\",\"title\":\"Three-Point Perspective\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":1765258710000,\"contributors\":[{\"name\":\"KahonStudio\",\"username\":\"KahonStudio\",\"email\":\"itsmeibay@gmail.com\",\"commits\":1,\"url\":\"https://github.com/KahonStudio\"}],\"changelog\":[{\"hash\":\"51ecf53ba3367489e6aa98e39c076b64953ea031\",\"time\":1765258710000,\"email\":\"itsmeibay@gmail.com\",\"author\":\"KahonStudio\",\"message\":\"final\"}]},\"filePathRelative\":\"three-point-perspective.md\"}")
 export { comp, data }
 
 if (import.meta.webpackHot) {
