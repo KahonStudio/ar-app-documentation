@@ -1,10 +1,9 @@
 <template><div><h1 id="orthographic-drawing" tabindex="-1"><a class="header-anchor" href="#orthographic-drawing"><span>Orthographic Drawing</span></a></h1>
-<img src="/images/10.png" style="width: 100%; max-width: none; height: auto;" alt="Orthographic Drawing 1">
-<img src="/images/11.png" style="width: 100%; max-width: none; height: auto;" alt="Orthographic Drawing 2">
-<img src="/images/12.png" style="width: 100%; max-width: none; height: auto;" alt="Orthographic Drawing 3">
-<img src="/images/13.png" style="width: 100%; max-width: none; height: auto;" alt="Orthographic Drawing 4" >
-<img src="/images/14.png" style="width: 100%; max-width: none; height: auto;" alt="Orthographic Drawingg 5">
-<img src="/images/15.png" style="width: 100%; max-width: none; height: auto;" alt="Orthographic Drawing 6">
+<img src="/images/4.png" style="width: 100%; max-width: none; height: auto;" alt="Orthographic Drawing 1">
+<img src="/images/9.png" style="width: 100%; max-width: none; height: auto;" alt="Orthographic Drawing 2">
+<img src="/images/10.png" style="width: 100%; max-width: none; height: auto;" alt="Orthographic Drawing 3">
+<img src="/images/11.png" style="width: 100%; max-width: none; height: auto;" alt="Orthographic Drawing 4">
+<img src="/images/12.png" style="width: 100%; max-width: none; height: auto;" alt="Orthographic Drawing 5">
 </div></template>
 
 
