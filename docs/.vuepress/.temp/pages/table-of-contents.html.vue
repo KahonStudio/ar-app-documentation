@@ -1,5 +1,5 @@
 <template><div><h1 id="table-of-contents" tabindex="-1"><a class="header-anchor" href="#table-of-contents"><span>Table of Contents</span></a></h1>
-<p>Welcome to the <strong>AR App Technical Drawing Series</strong>. This guide is designed to help learners develop a solid foundation in technical drawing, whether for academic study, professional growth, or personal interest. The content is organized into <strong>eleven comprehensive sections</strong>, each carefully structured to introduce key concepts, practical techniques, and hands-on exercises.</p>
+<p>Welcome to the <strong>AR App Technical Drawing Series</strong>. This guide is designed to help learners develop a solid foundation in technical drawing, whether for academic study, professional growth, or personal interest. The content is organized into <strong>twelve comprehensive sections</strong>, each carefully structured to introduce key concepts, practical techniques, and hands-on exercises.</p>
 <hr>
 <h3 id="_01-technical-drawing" tabindex="-1"><a class="header-anchor" href="#_01-technical-drawing"><span><strong>01. Technical Drawing</strong></span></a></h3>
 <p>Learn what technical drawing is, why it plays an important role in engineering, architecture, and design, and explore a brief history of its development from traditional hand-drawn methods to modern digital drafting.</p>
@@ -34,6 +34,9 @@
 <h3 id="_11-drawing-exercise" tabindex="-1"><a class="header-anchor" href="#_11-drawing-exercise"><span><strong>11. Drawing Exercise</strong></span></a></h3>
 <p>A collection of hands-on activities to help you practice and apply what you've learned. Try out guided exercises that let you experiment with different perspective techniques, from simple geometric shapes to more complex architectural forms.</p>
 <div class="custom-actions"><a href="/drawing-exercise.html" class="action-button primary">Learn more: Drawing Exercise</a></div>
+<h3 id="_12-ar-p-pub-application" tabindex="-1"><a class="header-anchor" href="#_12-ar-p-pub-application"><span><strong>12. AR P-PuB Application</strong></span></a></h3>
+<p>Discover the AR P-PuB (AR Pop-up Book) application, an innovative augmented reality tool that brings technical drawing concepts to life. Experience interactive 3D visualizations and immersive learning through AR technology.</p>
+<div class="custom-actions"><a href="/ar-ppub-application.html" class="action-button primary">Learn more: AR P-PuB Application</a></div>
 </div></template>
 
 

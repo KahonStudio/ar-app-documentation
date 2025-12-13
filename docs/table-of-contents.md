@@ -1,6 +1,6 @@
 # Table of Contents  
 
-Welcome to the **AR App Technical Drawing Series**. This guide is designed to help learners develop a solid foundation in technical drawing, whether for academic study, professional growth, or personal interest. The content is organized into **eleven comprehensive sections**, each carefully structured to introduce key concepts, practical techniques, and hands-on exercises.  
+Welcome to the **AR App Technical Drawing Series**. This guide is designed to help learners develop a solid foundation in technical drawing, whether for academic study, professional growth, or personal interest. The content is organized into **twelve comprehensive sections**, each carefully structured to introduce key concepts, practical techniques, and hands-on exercises.  
 
 ---
 ### **01. Technical Drawing**  
@@ -57,3 +57,8 @@ Welcome to the **AR App Technical Drawing Series**. This guide is designed to he
   A collection of hands-on activities to help you practice and apply what you've learned. Try out guided exercises that let you experiment with different perspective techniques, from simple geometric shapes to more complex architectural forms.  
 
 <div class="custom-actions"><a href="/drawing-exercise.html" class="action-button primary">Learn more: Drawing Exercise</a></div>
+
+### **12. AR P-PuB Application**  
+  Discover the AR P-PuB (AR Pop-up Book) application, an innovative augmented reality tool that brings technical drawing concepts to life. Experience interactive 3D visualizations and immersive learning through AR technology.  
+
+<div class="custom-actions"><a href="/ar-ppub-application.html" class="action-button primary">Learn more: AR P-PuB Application</a></div>

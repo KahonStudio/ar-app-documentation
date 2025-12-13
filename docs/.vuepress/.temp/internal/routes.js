@@ -1,6 +1,7 @@
 export const redirects = JSON.parse("{}")
 
 export const routes = Object.fromEntries([
+  ["/ar-ppub-application.html", { loader: () => import(/* webpackChunkName: "ar-ppub-application.html" */"C:/Users/James/Documents/GitHub/ar-app-documentation/docs/.vuepress/.temp/pages/ar-ppub-application.html.js"), meta: {"title":"AR P-PuB Application"} }],
   ["/drawing-exercise.html", { loader: () => import(/* webpackChunkName: "drawing-exercise.html" */"C:/Users/James/Documents/GitHub/ar-app-documentation/docs/.vuepress/.temp/pages/drawing-exercise.html.js"), meta: {"title":"Drawing Exercise"} }],
   ["/guide-on-how-to-create-an-orthographic-drawing.html", { loader: () => import(/* webpackChunkName: "guide-on-how-to-create-an-orthographic-drawing.html" */"C:/Users/James/Documents/GitHub/ar-app-documentation/docs/.vuepress/.temp/pages/guide-on-how-to-create-an-orthographic-drawing.html.js"), meta: {"title":"Guide on How to Create an Orthographic Drawing"} }],
   ["/materials-and-tools.html", { loader: () => import(/* webpackChunkName: "materials-and-tools.html" */"C:/Users/James/Documents/GitHub/ar-app-documentation/docs/.vuepress/.temp/pages/materials-and-tools.html.js"), meta: {"title":"Material and Tools"} }],
